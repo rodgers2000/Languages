@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1554425044318.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3761168336",
+    "id" : "9730A783",
+    "lastKnownWriteTime" : 1554425064,
+    "last_content_update" : 1554425064838,
+    "path" : "~/Documents/other/languages/r/R/rstudio/template/functions/test.R",
+    "project_path" : "functions/test.R",
+    "properties" : {
+        "cursorPosition" : "0,7",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

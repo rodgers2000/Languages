@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1554424704026.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4185330471",
+    "id" : "C1FFCECE",
+    "lastKnownWriteTime" : 1554425348,
+    "last_content_update" : 1554425348343,
+    "path" : "~/Documents/other/languages/r/R/rstudio/template/main.R",
+    "project_path" : "main.R",
+    "properties" : {
+        "cursorPosition" : "4,16",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

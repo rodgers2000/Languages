@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1539050899476.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "617089676",
+    "id" : "BE331CF8",
+    "lastKnownWriteTime" : 1539050929,
+    "last_content_update" : 1539050929467,
+    "path" : "~/Documents/other/languages/r/rstudio/packages/Keras/dnn-2d-regression.R",
+    "project_path" : "packages/Keras/dnn-2d-regression.R",
+    "properties" : {
+        "cursorPosition" : "61,10",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

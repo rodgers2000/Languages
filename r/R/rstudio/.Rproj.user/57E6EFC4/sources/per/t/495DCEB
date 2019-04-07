@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1535919057751.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "110887277",
+    "id" : "495DCEB",
+    "lastKnownWriteTime" : 1535913951,
+    "last_content_update" : 1535913951,
+    "path" : "~/Documents/other/languages/r/rstudio/packages/rcpp/tutorial.cpp",
+    "project_path" : "packages/rcpp/tutorial.cpp",
+    "properties" : {
+        "cursorPosition" : "4,37",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "cpp"
+}
