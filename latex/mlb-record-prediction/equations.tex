@@ -1,0 +1,65 @@
+\subsection{Mean Squared Prediction Error (MSPE)}
+
+$$
+\text{MSPE} = \sqrt{\frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{n}}
+$$
+
+\subsection{Transformation}
+
+$$
+W'_t = \log(\frac{W_t}{1-W_t})
+$$
+$$
+W_t^{-1} = \frac{1}{e^{-W'_t} + 1}
+$$
+
+\subsection{Arima(p, d, q)}
+$$ 
+Y_t = (1-B)^d W'_t 
+$$
+$$ 
+(1 - \sum_{i=1}^{p} \phi_i B^i) Y_t = 
+(1 + \sum_{i=1}^{q} \theta_i B^i) \epsilon_t
+$$
+
+\subsection{Bayesian Information Criteria (BIC)}
+$$
+W'_t = Arima(BIC)
+$$
+
+\subsection{Pythagorean Expectation}
+$$
+W_t = P_{t-1} = \frac{RS_{t-1}^2}{RS_{t-1}^2 + RA_{t-1}^2}
+$$
+
+\subsection{Pyrima}
+$$
+W'_t = Arima(BIC) + \beta P_{t-1}
+$$
+
+\subsection{Naive Weights}
+$$
+W'_t = \frac{\sum_{i=1}^p \sum_{j=1}^q Arima(i, d, j)}{p*q}
+$$
+
+\subsection{After Weights}
+$$
+\lambda_{m, t=1} = \frac{1}{M}
+$$
+$$
+\lambda_{m, t\geq2} = 
+\frac
+{
+\prod_{i=1}^{n-1} e^{\frac{-\alpha}{n_{\text{tr}, i}} 
+\sum_{j=1}^{n_{\text{tr}, i}} W_{j,i}-\hat{W}_{j,i}}
+}
+{
+\sum_{m=1}^{M}
+\prod_{i=1}^{n-1} e^{\frac{-\alpha}{n_{\text{tr}, i}} 
+\sum_{j=1}^{n_{\text{tr}, i}} W_{j,i}-\hat{W}_{j,i}}
+}
+$$
+
+$$
+W'_{t} = \sum_{i=1}^{M} \lambda_{i, t} \hat{W}_{t,i}
+$$

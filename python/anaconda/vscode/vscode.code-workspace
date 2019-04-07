@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "packages/base"
+		}
+	],
+	"settings": {
+		"python.pythonPath": "/anaconda3/bin/python"
+	}
+}
