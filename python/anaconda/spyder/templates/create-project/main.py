@@ -9,10 +9,14 @@ Created on Thu Apr  4 19:15:56 2019
 # you must lead it to the file name, then access the func or class directly
 import functions.arithmetic as fa
 import objects.Mike as om
+from objects import Mike
 
 print(fa.add(1, 1))
 
+mjr = Mike.Mike()
 mjr = om.Mike()
 
 print(mjr.subtract(9, 1))
 
+import os
+os.getcwd()
