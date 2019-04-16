@@ -2,6 +2,7 @@ class One {
 	// two doubles
 	double x, y; 
 	// static
+	int [] a = new int[3];
 	static int mjr = 69; 
 	/*
 	 * Multi line comment
@@ -29,6 +30,10 @@ public class Universal{
 		System.out.println(mjr.x);
 		One.mjr += 1; 
 		System.out.println(mjr.mjr);
+		
+		for (int i : mjr.a) {
+			System.out.println(i);
+		}
 		 
 	}
 }
