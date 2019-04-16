@@ -1,9 +1,10 @@
 import java.util.Scanner;
 import java.io.File;
+import java.io.FileNotFoundException;
 
 public class ReadCSV {
-
-	public static void main(String[] args) {
+	
+	public void scanner() throws FileNotFoundException {
 		String filepath = "/Users/mrodgers/Documents/other/languages/java/eclipse/ReadCSV/src/data.csv";
         //Get scanner instance
         Scanner scanner = new Scanner(new File(filepath));
@@ -20,6 +21,12 @@ public class ReadCSV {
          
         //Do not forget to close the scanner 
         scanner.close();
+	}
+
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		ReadCSV mjr = new ReadCSV();
+		mjr.scanner();
 
 	}
 
