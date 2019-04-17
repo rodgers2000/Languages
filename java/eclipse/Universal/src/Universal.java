@@ -23,17 +23,17 @@ class One {
 
 
 public class Universal{
+	double x = 0; 
+	int [] y = {1, 2, 3};
+	
 	public static void main(String[] args) {
-		System.out.println("Hello");
-		One mjr = new One(10, 69); 
-		mjr.print(); 
-		System.out.println(mjr.x);
-		One.mjr += 1; 
-		System.out.println(mjr.mjr);
-		
-		for (int i : mjr.a) {
+		Universal mjr = new Universal();
+		mjr.printme(mjr);
+	}
+	
+	public void printme(Universal mjr) {
+		for(int i : mjr.y) {
 			System.out.println(i);
 		}
-		 
 	}
 }
