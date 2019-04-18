@@ -7,5 +7,8 @@ public class Mike {
 			System.out.println(i);
 		}
 	}
+	public int getAAA() {
+		return aaa; 
+	}
 
 }

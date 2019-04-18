@@ -28,7 +28,10 @@ public class Universal{
 	
 	public static void main(String[] args) {
 		Universal mjr = new Universal();
+		One mjr2 = new One(10, 10);
 		mjr.printme(mjr);
+		mjr2.x = 15; 
+		System.out.println(mjr2.x);
 	}
 	
 	public void printme(Universal mjr) {
