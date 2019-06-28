@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Jun  9 15:55:46 2019
-
 @author: mrodgers
 """
+
 
 class A:
     def __init__(self, a, b, c):
@@ -22,3 +22,6 @@ mjr = B(1, 2, 3, 4)
 mjr.A.a
 mjr.A._b
 mjr.A.__c # access denied 
+
+a = [1, 2, 3]
+a[:-1]

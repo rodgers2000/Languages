@@ -20,10 +20,12 @@ mpl.style.use('seaborn')
 
 plt.scatter(x, y2, label='line1', color='blue')
 plt.plot(x, y2, color='blue')
+#plt.plot(x, y2, color='blue')
 plt.scatter(x, y1, label='line2', color='orange')
 plt.plot(x, y1, color='orange')
+#plt.plot(x, y1, color='orange')
 plt.legend()
 plt.title('beast mode')
 
-plt.savefig("/Users/DirtyMike/Documents/other/languages/python/anaconda/packages/matplotlib/graphs/scatlinelegend.pdf",
+plt.savefig("/Users/mrodgers/Documents/other/languages/python/anaconda/spyder/packages/matplotlib/graphs/scatlinelegend.pdf",
             orientation='landscape')

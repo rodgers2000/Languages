@@ -10,7 +10,7 @@ Created on Thu Apr  4 19:15:56 2019
 # 1. 
 exec(open("functions/arithmetic.py").read())
 # 2. 
-import objects.Mike as om
+import objects.one.Mike as om
 import functions.arithmetic as fa
 # both ways load the functions to the global environment, 
 # if you have naming conflicts, option 2 is better
